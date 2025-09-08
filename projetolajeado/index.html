@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Questionário Senac</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="quiz-container">
+    <h1>Descubra seu curso no Senac</h1>
+    <div id="question-box"></div>
+    <div id="buttons"></div>
+  </div>
+
+  <div id="result-container" style="display:none;">
+    <h2>Resultado</h2>
+    <div id="result-text"></div>
+
+    <h3>Deixe seus dados (opcional)</h3>
+    <input type="text" id="nome" placeholder="Nome">
+    <input type="email" id="email" placeholder="E-mail">
+    <input type="tel" id="telefone" placeholder="Telefone">
+    <button id="sendBtn">Enviar para o Senac</button>
+  </div>
+
+  <!-- Firebase -->
+  <script type="module" src="script.js"></script>
+</body>
+</html>
